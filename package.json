@@ -1,0 +1,21 @@
+{
+    "name": "rider-light",
+    "displayName": "Rider Light",
+    "description": "Light theme inspired by Rider Light",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rider Light",
+                "uiTheme": "vs",
+                "path": "./themes/rider-light-color-theme.json"
+            }
+        ]
+    }
+}
